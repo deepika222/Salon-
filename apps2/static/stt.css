@@ -1,0 +1,146 @@
+.s1
+		{
+			height: 64px;
+			width: 200px;
+			background-color:  #405d9a;
+			font-family: 'Rubik', sans-serif; color: white;
+			font-size: 50px;
+			text-decoration: bold;
+			padding-top:0px;
+		}
+		.s2
+		{
+			font-size: 14px;
+			color: white;
+			font-family: 'Kanit', serif;
+		}
+		.s3
+		{
+			font-size: 14px;
+			color: #9cb4d8;
+			font-family: 'Kanit', sans-serif;
+		}
+		.s3:hover
+		{
+			text-decoration: underline;
+		}
+		.s4
+		{
+		color:#0e385f; 
+		font-family: Times New Roman ;
+		word-spacing: 0.5px;
+		letter-spacing: 0px;
+		font-weight: bold;
+		font-size: 20px;
+		padding-top: 20px;
+		font-family: 'IBM Plex Sans', sans-serif;
+		}
+		.s5
+		{
+		color:black; 
+		font-family: Times New Roman;
+		word-spacing: 0.5px;
+		letter-spacing: 0px;
+		font-weight: bold;
+		font-size: 40px;
+		padding-top: 0px;
+		font-family: 'Cabin', sans-serif;
+		}
+		.s6
+		{
+		font-family: Times New Roman;
+		word-spacing: 0.5px;
+		letter-spacing: 0px;
+		font-weight: bold;
+		font-size: 22px;
+		font-family: 'Barlow', sans-serif;
+		color: black
+		}
+		.s7
+		{
+		height: 30px; 
+		width: 175px; 
+		border-radius: 5px; 
+		border: 1px solid grey; 
+		padding-left: 8px ;
+		font-size: 20px;
+		padding: 5px
+		}
+		.s8
+		{
+		height: 30px; 
+		width: 175px;
+		margin-left: 8px; 
+		margin-top: 25px; 
+		border-radius: 5px; 
+		border: 1px solid grey; 
+		padding-left: 8px;
+		font-size: 20px;
+		}
+		.s9
+		{
+		height: 30px;
+		 width: 363px; 
+		 border-radius: 5px; 
+		 border: 1px solid grey; 
+		 margin-top: 10px; 
+		 padding-left: 8px;
+		 font-size: 20px;
+		}
+		.s10
+		{
+		 height: 30px;
+		 width: 363px; 
+		 border-radius: 5px; 
+		 border: 1px solid grey; 
+		 margin-top: 10px; 
+		 padding-left: 8px;
+		 font-size: 20px;
+		}
+		.s11
+		{
+		height: 15px;
+		}
+		.s12
+		{
+		margin-top: 15px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px
+		}
+		.s13
+		{
+		border-radius: 5px; 
+		border: 1px solid  #2c5115;
+		font-family: 'Kanit', sans-serif; 
+		background:linear-gradient(#67ae55, #578843);
+		color: white;
+		font-weight: bold;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 70px;
+		padding-right: 70px;
+		font-size: 20px
+		}
+		.s13:hover
+		{
+			background:#69a74e;
+		}
+		.s14 span ul li
+		{
+		display: inline;
+		padding-right: 5px;
+		 padding-left: 5px;
+		}
+		.s15
+		{
+			padding: 2px;
+			padding-left: 6px;
+			padding-right: 6px;
+			border:1px solid #29487d; 
+			background-color: #4267b2;
+			color: white
+		}
+		.s15:hover
+		{
+			background-color: #29487d;
+		}

@@ -1,0 +1,38 @@
+{% extends 'basic.html' %}
+{% block css %} {% endblock %}
+{% load static %}
+
+{% block body %}
+
+<div class="container-fluid z6" >
+		<div class="container mc7">
+			<div class="row">
+				<div class="col-md-12 text-center x1">
+					<span class="s21">products</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center i5">
+					<i class="fa fa-circle i2"></i>
+					<i class="fa fa-circle i2"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 x10">
+					<center><span class="s22">lorem ipsum dolor sit amet, consectetur adipicising elit. dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla, duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</span></center>
+				</div>
+			</div>
+			<div class="row" class="z5">
+                {% for i in dic %}
+ 				<div class="col-md-2 cc img-responsive">
+ 					<div class="thumbnail" style="background-color:  #8f517c;border-color:#922d71 ">
+ 						<img src="{{i.img.url}}">
+ 					</div>
+ 				</div>
+                {% endfor %}
+			</div>
+		</div>
+	</div>
+{% endblock %}
+</body>
+</html>

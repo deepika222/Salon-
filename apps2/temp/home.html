@@ -1,0 +1,195 @@
+{% load static %}
+{% static "images" as baseUrl%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Alatsi|Arimo|Allerta|Lobster|Roboto+Slab|Ubuntu&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" type="text/css" href="{% static 'styy.css'%}">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-inverse" style="margin-bottom: 0px;border-radius: 0px;padding-bottom:0px;background-color: #080808;">
+  <div class="container-fluid">
+    <div class="navbar-header" style="height: auto;background-color: #080808;">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="height: auto;">
+      	<img src="{% static 'img/sf.png' %}" class="img-responsive" width="100%" >
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" style="padding-top: 20px">
+        <li ><a href="{% url 'home' %}" class="l2">Home</a></li>
+            <li style="padding-right: 10px"><a href="{% url 'about' %}" class="l2">About Us</a></li>
+            <li style="padding-right: 10px"><a href="{% url 'serve' %}" class="l2">Services</a></li>
+            <li style="padding-right: 10px"><a href="{% url 'products' %}" class="l2">Products</a></li>
+            <li style="padding-right: 10px"><a href="{% url 'price' %}" class="l2">Price</a></li>
+		    <li style="padding-right: 10px"><a href="{% url 'contact' %}" class="l2">Contact</a></li>
+			{% if user.is_authenticated %}
+		  <li style="color:white;" class="'l2">hey {{user.username}},<i class="fa fa-smile-o" style="font-size:36px;color:red"></i></li>
+		  <li style="padding-right:40px;margin-top:0px" class="l2"><a href="{% url 'logout' %}">Logout</a></li>
+		  {% else %}
+		  		  <li style="padding-right: 10px"><a href="{% url 'register' %}" class="l2">Registration</a></li>
+		  <li style="padding-right: 10px"><a href="{% url 'login' %}" class="l2">login</a></li>
+
+{% endif %}
+          </ul>
+
+
+    </div>
+  </div>
+</nav>
+
+
+<a name="banner"></a>
+	<div class="container-fluid mc2">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1" ></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" >
+					<img src="{% static 'img/m6.jpg' %}" alt="" style="width:100%">
+				</div>
+				<div class="item " >
+					<img src="{% static 'img/a8.jpg' %}" alt="" style="width:100%">
+				</div>
+				<div class="item " >
+					<img src="{% static 'img/m9.png' %}" alt="" style="width:100%">
+				</div>
+
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<a name="services"></a>
+	<div class ="container-fluid mc4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center c20">
+					<span class="s21">our services</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center i3">
+					<i class="fa fa-circle i2"></i>
+					<i class="fa fa-circle i2"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 c21">
+					<center><span class="s22">lorem ipsum dolor sit amet, consectetur adipicising elit. dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culps esse aute nulla ipsum velit export irure minim illum fore</span></center>
+				</div>
+			</div>
+				<div class="row iii">
+				{% for i in dic %}
+ 				<div class=" col-md-4">
+    				<div class="thumbnail" style="background-color: #c087b8;border-color: #572f4b">
+      					<img src="{{i.img.url}}" class="img-responsive" >
+      					<div class="caption">
+       						<h3 class="text-center i4">{{i.name}}</h3>
+       					</div>
+       		       </div>
+  				</div>
+				{% endfor %}
+			</div>
+  		</div>
+  	</div>
+
+
+
+	<div class ="container-fluid mc7">
+		<div class="container mc7">
+			<div class="row">
+				<div class="col-md-12 c16 mc7">
+					<span class="s8">get our services</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 c23">
+					<span class="s2">lorem ipsum dolor sit amet, consectetur adisicing elit. dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</span>
+				</div>
+				<div class="col-md-4 c24">
+					<form action="contact/">
+						<div class="form-group">
+							<button onclick="window.location.href='contact/';" type="submit" class="btn btn-primary c25" >Contact Us</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class ="container-fluid mc6">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 c17"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<a name="contact"></a>
+	<div class="container-fluid z7">
+		<div class="container iiii">
+			<div class="row">
+				<div class="col-md-12 text-center c1">
+					<span class="s1">contact us</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center iiii">
+					<i class="fa fa-circle ii"></i>
+					<i class="fa fa-circle ii"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 c4"><center><span class="s2">lorem ipsum dolor sit amet, consectetur adipisicing elit. dolores quae porro consequatur aliquam, incidunt eius magni provedent, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt.</span></div></center>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 z14"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 z15">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d6843.896148291198!2d75.83451217565816!3d30.944014726255872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d30.945874699999997!2d75.8417746!4m5!1s0x391a85125e1fcef1%3A0xd5a58f4ddc6b8bea!2sRedBloom%20Professional%20Ladies%20Salon%20%26%20Spa%2C%20E-13%2F23%20Aman%20Nagar%20%2C%20Backside%20Green%20Land%20School%2C%20Ludhiana%2C%20Punjab%20141008!3m2!1d30.942155!2d75.835928!5e0!3m2!1sen!2sin!4v1576632922779!5m2!1sen!2sin" width="100%" height="350px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+<div class="container-fluid" style="background-color:  #8f517c;">
+			<footer>
+  				<h6 style="font-size: 20px;color: black;">Template by: Deepika</h6>
+  				<h6 style="font-size: 20px;color: black;margin-top: 5px"><i class="fa fa-copyright" style="color: black"></i>Copyright Topper. All Rights Reserved.</h6>
+			</footer>
+	</div>
+</html>

@@ -1,0 +1,64 @@
+{% extends 'basic.html' %}
+{% block css %} {% endblock %}
+{% load static %}
+
+{% block body %}
+
+<div class ="container-fluid mc4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center c20">
+					<span class="s21">our services</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center i3">
+					<i class="fa fa-circle i2"></i>
+					<i class="fa fa-circle i2"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 c21">
+					<center><span class="s22">lorem ipsum dolor sit amet, consectetur adipicising elit. dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat culps esse aute nulla ipsum velit export irure minim illum fore</span></center>
+				</div>
+			</div>
+			<div class="row iii">
+				{% for i in dic %}
+ 				<div class=" col-md-4">
+    				<div class="thumbnail" style="background-color: #c087b8;border-color: #572f4b">
+      					<img src="{{i.img.url}}" class="img-responsive" >
+      					<div class="caption">
+       						<h3 class="text-center i4">{{i.name}}</h3>
+       					</div>
+       		       </div>
+  				</div>
+				{% endfor %}
+			</div>
+
+
+  		</div>
+  	</div>
+<div class ="container-fluid mc7">
+		<div class="container mc7">
+			<div class="row">
+				<div class="col-md-12 c16 mc7">
+					<span class="s8">get our services</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 c23">
+					<span class="s2">lorem ipsum dolor sit amet, consectetur adisicing elit. dolores quae porro consequatur aliquam, incidunt fugiat culpa esse aute nulla cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</span>
+				</div>
+				<div class="col-md-4 c24">
+					<form>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary c25" >Contact Us</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
+</html>

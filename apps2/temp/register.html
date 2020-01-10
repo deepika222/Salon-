@@ -1,0 +1,60 @@
+{% extends 'basic.html' %}
+{% block css %} {% endblock %}
+{% load static %}
+
+{% block body %}
+
+<div class="container-fluid" style="background-color:#922d71;">
+	<div class="container" style="background-color:#922d71;">
+		<h1 class="text-center" style="padding:40px;font-size:45px;font-weight:bold;color:white">Registration Form</h1>
+		<form class="form-horizontal" action="{% url 'register' %}" method="post">
+			{% csrf_token %}
+			<div class="form-group">
+				<lable class="control-label col-sm-2" >First Name</lable>
+				<div class="col-sm-10">
+					<input type="text" name="first_name" class="form-control" placeholder="Enter name" style="background-color:black">
+				</div>
+			</div>
+			<div class="form-group">
+				<lable class="control-label col-sm-2" >Last Name</lable>
+				<div class="col-sm-10">
+					<input type="text" name="last_name" class="form-control" placeholder="Enter name" style="background-color:black">
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<lable class="control-label col-sm-2">Email</lable>
+				<div class="col-sm-10">
+					<input type="email" name="email" class="form-control" style="background-color:grey">
+				</div>
+			</div>
+			<div class="form-group">
+				<lable class="control-label col-sm-2">Username</lable>
+				<div class="col-sm-10">
+					<input type="text" name="username" class="form-control" style="background-color:black">
+				</div>
+			</div>
+			<div class="form-group">
+				<lable class="control-label col-sm-2">Password</lable>
+				<div class="col-sm-10">
+					<input type="password" name="password1" class="form-control" style="background-color:black">
+				</div>
+			</div>
+			<div class="form-group">
+				<lable class="control-label col-sm-2">Confirm Password</lable>
+				<div class="col-sm-10">
+					<input type="password" name="password2" class="form-control" style="background-color:black">
+				</div>
+			</div>
+			<div class="form-group col-md-6" style="padding-left: 210px">
+				<button type="submit" style="background-color:black">Submit</button>
+			</div>
+		</form>
+		{% for msg in messages %}
+		<p>{{msg}}</p>
+		{% endfor%}
+	</div>
+</div>
+{% endblock %}
+</html>

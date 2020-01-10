@@ -1,0 +1,553 @@
+.s2
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 17px;
+	 		
+	 		font-family: 'Allerta',sans-sarif;
+	 		color:white;
+	 	}
+	 	.s22
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 17px;
+	 		font-weight: bold;
+	 		font-family: 'Allerta',sans-sarif;
+	 		color:black;
+	 	}
+	 	.s3
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 15px;
+	 		font-family: 'Allerta',sans-sarif;
+	 		font-weight: bold;
+	 		
+	 		color: white
+	 	}
+	 	.s4
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 20px;
+	 		font-family: 'Lobster',sans-sarif;
+	 		color:white; 
+	 	}
+	 	.s5
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 15px;
+	 		font-family:'Allerta',sans-sarif;
+	 		color:white; 
+	 	}
+	 	.s6
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 15px;
+	 		font-family:'Allerta',sans-sarif; 
+	 		color:white;
+	 	}
+	 	.s7
+	 	{
+	 		text-transform: uppercase;
+	 		font-size: 25px;
+	 		font-family: 'Arimo',sans-sarif; 
+	 		font-weight: bold;
+	 	}
+	 	.s8
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 29px;
+	 		font-weight: bold;
+	 		font-family: 'Allerta',sans-sarif; 
+	 		color: white
+	 	}
+	 	.s9
+	 	{
+	 		text-transform: uppercase;
+	 		font-size: 28px;
+	 		font-family: 'Arimo',sans-sarif; 
+	 		font-weight: bold;	
+	 	}
+	 	.s10
+	 	{
+	 		text-transform: capitalize;
+	 		font-size: 16px;
+	 		font-family: 'Allerta',sans-sarif;
+	 	}
+	 	.s11
+	 	{
+	 		text-transform: uppercase;
+	 		font-size: 20px;
+	 		font-weight: bold;
+	 		font-family: 'Allerta',sans-sarif;
+	 		margin-left: 10px;
+	 		color:  #922d71;
+	 	}
+	 	.s12
+	 	{
+	 		font-size: 15px;
+	 		font-family: 'Allerta',sans-sarif;
+	 		margin-left: 28px;
+	 		color: white
+	 	}
+	 	.s13
+	 	{
+	 		font-size: 15px;
+	 		font-weight: bold;
+	 		font-family:'Allerta',sans-sarif; 
+	 		text-transform: capitalize;
+	 	}
+
+
+	 	.mc1
+	 	{
+	 		background-color: red
+	 	}
+	 	.ic1
+	 	{
+	 		background-color: grey
+	 	}
+	 	.l
+	 	{
+	 		padding-top: 20px;
+	 	}
+	 	.l1
+	 	{
+	 		display: inline;
+	 		font-size: 15px;
+	 		font-family:'Allerta',sans-sarif ;
+	 		text-transform: capitalize;
+	 	}
+	 	.l2
+	 	{
+	 		display: inline;
+	 		font-size: 15px;
+	 		font-family:'Allerta',sans-sarif ;
+	 		
+	 		text-transform: capitalize;
+	 	}
+
+
+
+	 	.mc2
+	 	{
+	 		padding-left: 0px;
+	 		padding-right: 0px;
+	 		margin-top: 0px
+
+	 	}
+
+
+
+	 	.mc3
+	 	{
+	 		background-color: black;
+	 		padding-bottom: 80px
+	 	}
+	 	.s1
+	 	{
+	 		font-weight: bold;
+	 		font-size: 43px;
+	 		font-family: 'Arimo',sans-sarif;
+	 		text-transform: uppercase;
+	 		color: white;
+	 		
+	 	}
+	 	.s21
+	 	{
+	 		font-weight: bold;
+	 		font-size: 43px;
+	 		font-family: 'Arimo',sans-sarif;
+	 		text-transform: uppercase;
+	 		color: black;
+	 		
+	 	}
+	 	.c1
+	 	{
+	 		background-color: black;
+	 		padding-bottom: 8px;
+	 		padding-top: 40px
+	 	}
+	 	.c20
+	 	{
+	 		background-color:  #8f517c;
+	 		padding-bottom: 8px;
+	 		padding-top: 40px
+	 	}
+	 	.x1
+	 	{
+	 		background-color:  #922d71;
+	 		padding-bottom: 8px;
+	 		padding-top: 40px
+	 	
+	 	}
+
+	 	.c2
+	 	{
+	 		background-color: black;
+	 		height: 150px;
+	 		position: relative;
+	 		padding-top: 70px
+	 	}
+	 	.c3
+	 	{
+	 		
+	 		height: 150px
+	 	}
+	 	.c4
+	 	{
+	 		background-color: black;
+	 		height: auto;
+	 		padding-bottom: 20px;
+	 		padding-top: 35px
+	 	}
+	 	.c21
+	 	{
+	 		background-color:#8f517c;
+	 		height: auto;
+	 		padding-bottom: 20px;
+	 		padding-top: 35px
+	 	}
+	 	.x10
+	 	{
+	 		background-color: #922d71;
+	 		height: auto;
+	 		padding-bottom: 20px;
+	 		padding-top: 35px
+	 	}
+	 	.c5
+	 	{
+	 		height: auto;
+	 		padding-left: 0px;
+	 		padding-right: 0px
+	 	}
+	 	.c6
+	 	{
+	 		
+	 		height: auto
+
+	 	}
+	 	.ii
+	 	{
+	 		font-size:12px;
+	 		color:  #922d71;
+	 	}
+	 	.i2
+	 	{
+	 		font-size:12px;
+	 		color:white;
+	 	}
+	 	.c7
+	 	{
+	 		background-color: black;
+	 		padding-left: 35px
+	 	}
+	 	.c8
+	 	{
+	 		background-color: black;
+	 		padding-bottom:15px;
+	 		padding-top: 15px;
+	 		padding-left: 35px
+	 	}
+	 	.c9
+	 	{
+	 		background-color: black;
+	 		padding-bottom: 15px;
+	 		padding-top: 15px; 
+	 		padding-left: 35px
+	 	}
+	 	.c10
+	 	{
+	 		padding-bottom: 8px;
+	 		background-color: black;
+	 		padding-left: 0px;
+	 		padding-top: 10px
+	 	}
+	 	.l4
+	 	{
+	 		display: inline;
+	 		color: black;
+	 	}
+	 	.ic
+	 	{
+	 		font-size:24px;
+	 		color:   #8f517c;
+	 	}
+	 	.l5
+	 	{
+	 		display: inline;
+	 		margin-left: 13px
+	 	}
+	 	.xx
+	 	{
+	 		background-color: #c087b8;
+	 		border-color: #572f4b
+	 	}
+
+
+
+
+	 	.mc4
+	 	{
+	 		background-color:#8f517c;
+	 		height: auto;
+	 		padding-bottom: 80px
+	 	}
+	 	.c11
+	 	{
+	 		background-color: brown;
+	 		height:auto;
+	 		padding-bottom: 10px;
+	 		padding-top: 80px;
+	 		position: relative;
+	 	}
+	 	.iii
+	 	{
+	 		 background-color: #8f517c
+	 	}
+	 	.i3
+	 	{
+	 		 background-color:#8f517c 
+	 	}
+	 	.i5
+	 	{
+	 		 background-color:#922d71;
+	 	}
+	 	.d3
+	 	{
+	 		height: 10px;
+	 		width: 10px;
+	 		background-color: purple;
+	 		position: absolute;
+	 		margin-left:130px;
+	 		border-radius: 50% 50%
+	 	}
+	 	.d4
+	 	{
+	 		height: 10px;
+	 		width: 10px;
+	 		background-color: purple;
+	 		position: absolute;
+	 		margin-left:150px;
+	 		border-radius: 50% 50%
+	 	}
+	 	.c12
+	 	{
+	 		background-color: gold;
+	 		height:100px;
+	 		padding-top: 35px
+	 	}
+	 	.c13
+	 	{
+	 		height: auto;
+	 		padding: 0px;
+	 	}
+	 	.c13a
+	 	{
+	 		height: auto;
+
+	 	}
+	 	.c14
+	 	{
+	 		background-color: white;
+	 		height:auto;
+	 		padding: 15px;
+	 		width: 370px
+	 	}
+	 	.c15
+	 	{
+	 		background-color: grey;
+	 		height:40px
+	 	}
+	 	.c16
+	 	{
+	 		padding-top:30px;
+	 	}
+	 	.d5
+	 	{
+	 		padding:2px;
+	 		background-color: pink;
+	 		margin-top: 40PX;
+	 		position: absolute
+	 	}
+	 	.d6
+	 	{
+	 		padding:1px;
+	 		width:900px;
+	 		background-color: pink;
+	 		margin-top: 90PX;
+	 		position: absolute;
+	 	}
+	 	.d7
+	 	{
+	 		padding:1px;
+	 		width:150px;
+	 		background-color: pink;
+	 		margin-top: 90PX;
+	 		position: relative;
+	 		margin-left: 1005px
+	 	}
+	 	.f2
+	 	{
+	 		height: 50px;
+	 		width: 150px;
+	 		background-color: red;
+	 		border:3px solid black;
+	 		border-radius: 4px;
+	 		font-size: 0px; 
+	 		font-weight:bold
+	 	}
+
+	 	.cc,.mc7
+	 	{
+	 		background-color: #922d71
+	 	}
+
+	 	.mc6
+	 	{
+	 		background-color:#8f517c;
+	 		height: auto
+	 	}
+	 	.c17
+	 	{
+	 		background-color: #8f517c;
+	 		padding: 60px
+	 	}
+
+	 	
+	 	.c23
+	 	{
+	 		background-color: #922d71;
+	 		padding-top: 10px;
+	 		padding-bottom: 20px
+	 	}
+	 	.c24
+	 	{
+	 		background-color: #922d71;
+	 		padding-left: 150px;
+	 	}
+	 	.c25
+	 	{
+	 		background-color:  #8f517c;
+	 		border:3px white solid
+	 	}
+
+
+	 	.mc8
+	 	{
+	 		background-color:black;
+	 		padding-bottom: 100px
+	 	}
+	 	.iiii
+	 	{
+	 		background-color: black;
+	 	}
+	 	.i4
+	 	{
+	 		font-size: 25px;
+	 		text-transform: uppercase;
+	 		font-weight: bold;
+	 		font-family: 'Arimo',sans-sarif;
+	 	}
+	 	.t1
+	 	{
+	 		margin-top: 30px;
+	 		margin-bottom: 5px;
+	 		padding-top: 30px
+	 	}
+	 	.t2
+	 	{
+	 		background-color: #8f517c;
+	 	}
+	 	.z1
+	 	{
+	 		
+	 		padding-top: 20px
+	 	}
+	 	.z2
+	 	{
+	 		background-color: purple;
+	 		border-top-left-radius: 8px;
+	 		border-bottom-right-radius: 8px;
+	 		color: white
+	 	}
+	 	.z3
+	 	{
+	 		font-size:50px;
+	 		color:#922d71;
+	 	}
+	 	.z4
+	 	{
+	 		color: white
+	 	}
+	 	.z5
+	 	{
+	 		background-color: #cd24d2;
+	 		margin-top: 20px
+	 	}
+	 	.z6
+	 	{
+	 		background-color:  #922d71;
+	 		padding-bottom: 100px
+	 	}
+	 	.z7
+	 	{
+	 		background-color:black;
+	 		padding-bottom: 50px
+	 	}
+	 	.z8
+	 	{
+	 		padding-bottom: 60px; 
+	 		background-color: black;
+	 		padding-left: 0px;
+	 		margin-top: 10px
+	 	}
+	 	.z9
+	 	{
+	 		height: 60px;
+	 		width: 400px;
+	 		background-color: black
+	 	}
+	 	.z10
+	 	{
+	 		font-size:25px;
+	 		color: #922d71;
+	 	}
+	 	.z11
+	 	{
+	 		margin-top: 10px
+	 	}
+	 	.z12
+	 	{
+	 		
+	 		margin-top: 15px;
+	 		padding-left:15px;
+	 		
+	 		background-color:  #922d71;
+	 		border:2px solid purple
+	 	}
+	 	.z13
+	 	{
+	 		
+	 		background-color: black
+	 	}
+	 	.z14
+	 	{
+	 		background-color: black;
+	 		height:80px
+	 	}
+	 	.z15
+	 	{
+	 		padding-left: 0px;
+	 		padding-right: 0px
+	 	}
+	 	.z16
+	 	{
+	 		width: 100%
+	 	}
+	 	.z17
+	 	{
+	 		padding-top: 100px;
+	 	}
+	 	.z18
+	 	{
+	 		font-size:15px;color:grey
+	 	}
